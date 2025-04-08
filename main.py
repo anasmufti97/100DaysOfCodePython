@@ -86,7 +86,7 @@
 # print(greet.__doc__)
 
 
-numbers = [1, 3, 5, 7, 9]
+# numbers = [1, 3, 5, 7, 9]
 
 # for num in numbers:
 #     if num == 4:
@@ -102,3 +102,25 @@ numbers = [1, 3, 5, 7, 9]
         
 # else:
 #     print("4 not found in the list.")   
+
+
+# try:
+#     for i in range(5):
+#         print(x)
+    
+# except Exception as e: 
+#     print(f"Caught an exception: {e}")
+
+# finally:
+#     print("This block always runs.")  
+
+
+
+# /// enumerate  ///
+
+
+# fruits = ["apple", "banana", "cherry"]
+
+# for index, fruit in enumerate(fruits):
+#     print(f"Index {index} has fruit: {fruit}")    
+    
