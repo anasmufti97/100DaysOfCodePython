@@ -126,4 +126,8 @@
 
 
 # Virtual Environment
-    
+
+
+import anas
+
+anas.function1()
