@@ -6,9 +6,6 @@ class MyClass:
     def greet(self):
         print(f"Hello, {self.name}!")
 
-
-
-
 # Creating an instance of MyClass
 my_object = MyClass("Anas")
 my_object.greet()  # Output: Hello, Anas!     
