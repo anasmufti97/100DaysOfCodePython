@@ -128,7 +128,29 @@
 # Virtual Environment
 
 
-import anas
-import os
+# import anas
+# import os
 
-anas.function1()
+
+# os.mkdir("test")
+# anas.function1()
+
+
+
+# LAMDA FUNCTION 
+
+
+
+# with open("example1.txt", "a") as file:#edit file 
+#     file.write("Hello, this is a new text file created with Python.\n")
+#     file.write("You can write multiple lines like this.\n")
+
+
+# file = open("example.txt", "r")
+# content = file.read()
+# print(content)
+# file.close()
+
+
+
+open("oop.py", "w").close()

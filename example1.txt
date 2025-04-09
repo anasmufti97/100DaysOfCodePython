@@ -1,0 +1,4 @@
+Hello, this is a new text file created with Python.
+You can write multiple lines like this.
+Hello, this is a new text file created with Python.
+You can write multiple lines like this.
