@@ -30,17 +30,17 @@
 
 
 
-class Person:
+# class Person:
 
 
-    name = "name"
-    # def __init__(self):
-          # _name is considered 'protected'
+#     name = "name"
+#     # def __init__(self):
+#           # _name is considered 'protected'
 
-    # @property
-    def name2(self):
-        print("Getting name...")
-        return self.name
+#     # @property
+#     def name2(self):
+#         print("Getting name...")
+#         return self.name
 
 #     @name.setter
 #     def name(self, value):
@@ -50,16 +50,47 @@ class Person:
 #         self._name = value
 
 
-p = Person()
-p.name = "Ali"     # Setter called
-print(p.name)
+# p = Person()
+# p.name = "Ali"     # Setter called
+# print(p.name)
 
 
-obj = Person()
-obj.name = "Aliobj" 
-print(obj.name) # Output: Setting name...
+# obj = Person()
+# obj.name = "Aliobj" 
+# print(obj.name) # Output: Setting name...
 
 
 # NO use of self in the function if it is static method
 
+
+
+
+class Student:
+    # Class variable
+    school_name = "Green School"
+    def __init__(self, name):
+        self.name = name  
+        # self.school_name = "Green School"  # Instance variable
+
+s1 = Student("Anas")
+s2 = Student("Ali")
+
+
+s1.school_name = "Green"  # Instance variable
+print(Student.school_name)  # Green School
+print(s2.school_name)  # Green School
+
+
+
+# class Student:
+#     school_name = "Green School"  # Class variable
+
+#     def __init__(self, name):
+#         self.name = name   # Instance variable
+
+# s1 = Student("Anas")
+# s2 = Student("Ali")
+
+# print(s1.school_name)  # Green School
+# print(s2.school_name)  # Green School
 
