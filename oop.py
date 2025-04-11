@@ -52,4 +52,5 @@
 # p.name = "Ali"     # Setter called
 # print(p.name)
 
+
 # NO use of self in the function if it is static method
