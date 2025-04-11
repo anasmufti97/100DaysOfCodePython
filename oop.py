@@ -30,14 +30,17 @@
 
 
 
-# class Person:
-#     def __init__(self, name):
-#         self._name = name  # _name is considered 'protected'
+class Person:
 
-#     @property
-#     def name(self):
-#         print("Getting name...")
-#         return self._name
+
+    name = "name"
+    # def __init__(self):
+          # _name is considered 'protected'
+
+    # @property
+    def name2(self):
+        print("Getting name...")
+        return self.name
 
 #     @name.setter
 #     def name(self, value):
@@ -47,10 +50,16 @@
 #         self._name = value
 
 
-# p = Person("Anas")
-# print(p.name)      # Getter called
-# p.name = "Ali"     # Setter called
-# print(p.name)
+p = Person()
+p.name = "Ali"     # Setter called
+print(p.name)
+
+
+obj = Person()
+obj.name = "Aliobj" 
+print(obj.name) # Output: Setting name...
 
 
 # NO use of self in the function if it is static method
+
+
