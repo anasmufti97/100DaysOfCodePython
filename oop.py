@@ -27,15 +27,8 @@
 
 # decorator_function(display)()  # This will return the wrapper function/
 # display()  # Output: Wrapper executed before the original function  
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-#   
+
+
 
 # class Person:
 #     def __init__(self, name):
@@ -58,7 +51,5 @@
 # print(p.name)      # Getter called
 # p.name = "Ali"     # Setter called
 # print(p.name)
-
-
 
 # NO use of self in the function if it is static method
