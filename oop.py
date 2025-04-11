@@ -65,20 +65,20 @@
 
 
 
-class Student:
-    # Class variable
-    school_name = "Green School"
-    def __init__(self, name):
-        self.name = name  
-        # self.school_name = "Green School"  # Instance variable
+# class Student:
+#     # Class variable
+#     school_name = "Green School"
+#     def __init__(self, name):
+#         self.name = name  
+#         # self.school_name = "Green School"  # Instance variable
 
-s1 = Student("Anas")
-s2 = Student("Ali")
+# s1 = Student("Anas")
+# s2 = Student("Ali")
 
 
-s1.school_name = "Green"  # Instance variable
-print(Student.school_name)  # Green School
-print(s2.school_name)  # Green School
+# s1.school_name = "Green"  # Instance variable
+# print(Student.school_name)  # Green School
+# print(s2.school_name)  # Green School
 
 
 
@@ -94,3 +94,16 @@ print(s2.school_name)  # Green School
 # print(s1.school_name)  # Green School
 # print(s2.school_name)  # Green School
 
+
+
+#changing file name in a folder
+
+import os
+
+# List all items and count only files
+file_count = os.listdir("changename")
+print("Files in folder:", len(file_count))
+# print("Total files:", file_count)
+
+for file in file_count:
+    os.rename(os.path.join("changename", file), os.path.join("changename", "new_" + file))
