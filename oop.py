@@ -106,28 +106,30 @@
 # for file in file_count:
     # os.rename(os.path.join("changename", file), os.path.join("changename", "new_" + file))
 
+# //////////////////////// class method ///////////////////////
 
+# class Student:
 
+#     school_name = "Green School"
 
+#     def __init__(self, name):
+#         self.name = name 
+#         print("This is constructor") 
 
+#     @classmethod
+#     def get_school_name(cls):
+#         return cls("anas")  # Access class variable using cls
+    
+#     def show(self ,name):
+#         print(f"This is a method of the Student class {name}")  
+#         self.school_name = "Green School"  # Instance variable
 
+# s = Student.get_school_name()
+# # s.name = "Ali"
+# # s.show("anas")
+# s.get_school_name()
 
+# //////////////////////// class method ///////////////////////
 
-class Student:
-
-    school_name = "Green School"
-    def show(self):
-        print(f"This is a method of the Student class {self.name}")  
-        self.school_name = "Green School"  # Instance variable
-
-
-
-s = Student()
-s.name = "Ali"
-s.show()
-
-
-b= Student()
-b.show()
 
 
