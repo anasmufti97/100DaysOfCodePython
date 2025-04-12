@@ -94,8 +94,6 @@
 # print(s1.school_name)  # Green School
 # print(s2.school_name)  # Green School
 
-
-
 #changing file name in a folder
 
 import os
