@@ -96,12 +96,38 @@
 
 #changing file name in a folder
 
-import os
+# import os 
 
 # List all items and count only files
-file_count = os.listdir("changename")
-print("Files in folder:", len(file_count))
+# file_count = os.listdir("changename")
+# print("Files in folder:", len(file_count))
 # print("Total files:", file_count)
 
-for file in file_count:
-    os.rename(os.path.join("changename", file), os.path.join("changename", "new_" + file))
+# for file in file_count:
+    # os.rename(os.path.join("changename", file), os.path.join("changename", "new_" + file))
+
+
+
+
+
+
+
+
+class Student:
+
+    school_name = "Green School"
+    def show(self):
+        print(f"This is a method of the Student class {self.name}")  
+        self.school_name = "Green School"  # Instance variable
+
+
+
+s = Student()
+s.name = "Ali"
+s.show()
+
+
+b= Student()
+b.show()
+
+
