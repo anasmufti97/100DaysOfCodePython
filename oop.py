@@ -155,7 +155,6 @@
 # print(user.education)
 
 
-
 # single inheritance
 
 # mro docs pyton
