@@ -63,8 +63,6 @@
 # NO use of self in the function if it is static method
 
 
-
-
 # class Student:
 #     # Class variable
 #     school_name = "Green School"
