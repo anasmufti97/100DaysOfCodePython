@@ -132,4 +132,37 @@
 # //////////////////////// class method ///////////////////////
 
 
+# DIR, DICT, HELP FUNCTIONs
+
+# class Parent:
+
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#         print("This is parent constructor")
+
+# class Student(Parent):
+
+#     def __init__(self, name, age,education):
+#         self.education = education
+#         super().__init__(name, age)
+       
+#         print("This is constructor")
+
+# user = Student("Anas", 22, "BSCS")
+# print(user.name)
+# print(user.age)
+# print(user.education)
+
+
+
+# single inheritance
+
+# mro docs pyton
+
+
+
+
+
+
 
