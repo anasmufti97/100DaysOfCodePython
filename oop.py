@@ -156,10 +156,50 @@
 # single inheritance
 
 # mro docs pyton
+# Walrus Operator in Python ///////////////////////////////
 
 
 
 
+# food = "pizza"anas
+
+# print(food :="pizza hut")  # assigning value to the food and then printing it
+# print(food)  # Output: pizza hut
 
 
 
+# foods = list()
+
+# while (food := input("Enter food name: ")) != "exit":
+
+#     foods.append(food)
+
+# print(foods)  # Output: pizza hut
+# ///////////////////////////////////////////////////////////////
+
+# GENERATORS (yield)
+
+from functools import  lru_cache
+
+import time 
+
+@lru_cache(maxsize=1000)
+def fibonacci(n):
+    time.sleep(3)  
+    if n <= 1:
+        return n
+    else:
+        return n
+    
+
+
+print(fibonacci(5))
+print(fibonacci(3))
+print(fibonacci(2))
+print(fibonacci(7))
+print(fibonacci(5))
+print(fibonacci(5))
+print(fibonacci(5))
+print(fibonacci(22))
+print(fibonacci(7))
+print(fibonacci(5))
