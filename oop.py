@@ -209,3 +209,38 @@
 
 
 # AsyncIO in Python    (to run await function at a same time )
+
+
+
+
+
+import multiprocessing 
+import requests
+
+
+
+def download(url, name):
+    print("Downloaded start")
+    response = requests.get(url)
+    open(f"files/file{name}.jpg",       
+    "wb").write(response.content)
+    print(f"Downloaded {name}")
+
+
+
+if __name__ == "__main__": #(Only run the following block of code if this script is being run directly (not imported by another script))
+    
+ url = "https://picsum.photos/seed/picsum/200/300"
+
+ pros =[]
+
+ for i in range(5):
+    process = multiprocessing.Process(target=download, args=(url, i))
+    process.start()
+    pros.append(process)  # Append the process to the list
+
+
+ for pro in pros:
+    pro.join()  # Wait for the process to finish before starting the next one
+
+
