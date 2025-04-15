@@ -179,27 +179,33 @@
 
 # GENERATORS (yield)
 
-from functools import  lru_cache
-
-import time 
-
-@lru_cache(maxsize=1000)
-def fibonacci(n):
-    time.sleep(3)  
-    if n <= 1:
-        return n
-    else:
-        return n
-    
 
 
-print(fibonacci(5))
-print(fibonacci(3))
-print(fibonacci(2))
-print(fibonacci(7))
-print(fibonacci(5))
-print(fibonacci(5))
-print(fibonacci(5))
-print(fibonacci(22))
-print(fibonacci(7))
-print(fibonacci(5))
+
+# from functools import  lru_cache
+
+# import time 
+
+# @lru_cache(maxsize=1000)
+# def fibonacci(n):
+#     time.sleep(3)  
+#     if n <= 1:
+#         return n
+#     else:
+#         return n
+
+# print(fibonacci(5))
+# print(fibonacci(3))
+# print(fibonacci(2))
+# print(fibonacci(7))
+# print(fibonacci(5))
+# print(fibonacci(5))
+# print(fibonacci(5))
+# print(fibonacci(22))
+# print(fibonacci(7))
+# print(fibonacci(5))
+
+
+
+
+# AsyncIO in Python    (to run await function at a same time )
